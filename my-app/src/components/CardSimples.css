@@ -1,0 +1,20 @@
+* {
+    align-items: center;
+    padding-top: 25px;
+}
+
+.enfeite{
+    background-color:rgb(236, 236, 194);
+    border: 1px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.enfeite button {
+    background-color:rgb(225, 191, 241)
+    
+}
+
+.enfeite button:hover{
+    color:blue
+}
