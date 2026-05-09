@@ -12,12 +12,12 @@ import CssInline from './components/CssInline'
 import TelasUsuarios from './components/TelaUsuarios'
 import GridProdutos from './components/GridProdutos'
 import BotoesDinamicos from './components/BotoesDinamicos'
-
+import Desafio10 from './components/Desafio10'
 
 function App(){
   return (
     <div>
-      <BotoesDinamicos/>
+      <Desafio10/>
     </div>
   )
 }
