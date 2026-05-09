@@ -1,0 +1,22 @@
+.lista h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(5, 14, 131);
+    padding: 20px;
+    display: flex;
+    font-size: 40px;
+}
+
+.produto{
+    padding: 10px;
+    width: 170px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    
+    transition: filter 0.3s ease; 
+    cursor: pointer;
+    margin: 20px;
+}
+
+.produto:hover{
+    filter: brightness(0.8);
+}

@@ -1,0 +1,68 @@
+.vitrine {
+    padding: 40px;
+    font-family: sans-serif;
+    background-color: #fafafa;
+    min-height: 100vh;
+}
+
+.vitrine h1 {
+    text-align: center;
+    color: #055f21;
+    margin-bottom: 40px;
+}
+
+.grid-produtos {
+    display: grid;                 
+    gap: 30px;                     
+    grid-template-columns: repeat(3, 1fr); 
+    max-width: 1000px;            
+    margin: 0 auto;               
+}
+
+.card-grid {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); 
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card-grid:hover {
+  transform: scale(1.05);       
+  border-color: #007bff;        
+}
+
+.icone-produto {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.card-grid h3 {
+  color: #444;
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.preco-grid {
+  color: #27ae60;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0 0 20px 0;
+}
+
+.botao{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #0056b3;
+}

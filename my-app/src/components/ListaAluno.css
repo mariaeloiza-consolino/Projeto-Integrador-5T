@@ -1,0 +1,48 @@
+.layout {
+    max-width: 350px;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #ffffd5;
+    border-radius: 8px;
+}
+
+.layout h2 {
+    text-align: center;
+    color: #a51e1e; 
+}
+
+.lista { 
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aluno{
+    display: flex;
+    justify-content: space-between; 
+    background-color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nome-aluno {
+  font-weight: bold;
+  color: #78049f;
+}
+
+.aprovado {
+  color: #27ae60; /* Verde */
+  font-weight: bold;
+}
+
+.reprovado {
+  color: #c0392b; /* Vermelho */
+  font-weight: bold;
+}

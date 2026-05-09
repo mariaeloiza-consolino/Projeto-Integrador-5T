@@ -1,0 +1,70 @@
+.layout{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(244, 232, 216);
+    min-height: fit-content;
+}
+
+.layout h2{
+    text-align: center;
+    color: #ba0d0d;
+    margin-bottom: 30px;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .filme{
+    background-color: #ffffff;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex-direction: column;
+    justify-content: space-between; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filme:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.info-filme h3 {
+  margin: 0 0 10px 0;
+  color: #222;
+  font-size: 1.3rem;
+}
+
+.info-filme .categoria {
+  color: #666;
+  margin: 0 0 5px 0;
+  font-size: 0.95rem;
+}
+
+.info-filme .nota {
+  font-weight: bold;
+  color: #82440e; 
+  margin: 0 0 20px 0;
+}
+
+.botao{
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px; 
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #b20710; 
+}

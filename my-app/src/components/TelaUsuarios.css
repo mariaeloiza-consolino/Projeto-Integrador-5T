@@ -1,0 +1,51 @@
+.tela{
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; 
+    min-height: 100vh;
+}
+
+.tela h1 {
+    text-align: center;
+    color: #ca701c;
+    margin-bottom: 40px;
+}
+
+.usuarios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;              
+  justify-content: center;
+}
+
+.card-usuario {
+  background-color: #ffffff;
+  width: 280px;          
+  padding: 25px;          
+  border-radius: 12px;    
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-usuario:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.card-usuario h2 {
+  margin: 0 0 15px 0;
+  color: #0056b3; 
+  font-size: 1.4rem;
+  border-bottom: 2px solid #f0f2f5; 
+  padding-bottom: 10px;
+}
+
+.card-usuario p {
+  margin: 8px 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.card-usuario p strong {
+  color: #923838;
+}

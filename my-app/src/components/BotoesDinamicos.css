@@ -1,0 +1,43 @@
+.botoes-layout{
+  padding: 40px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.grupo-botoes {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.botao {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white; 
+  cursor: pointer;
+  transition: filter 0.3s ease, transform 0.1s ease;
+}
+
+.botao:hover {
+  filter: brightness(0.9); 
+}
+
+.botao:active {
+  transform: scale(0.95);
+}
+
+.sucesso {
+  background-color: #27ae60;
+}
+
+.erro {
+  background-color: #e74c3c; 
+}
+
+.aviso {
+  background-color: #f39c12; 
+  color: #333;
+}
